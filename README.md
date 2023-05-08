@@ -27,20 +27,20 @@ SwiftUI 기반 개인 앱출시
 
 기술 스택
 
--Swift, SwiftUI, Firebase, Restful API, Git
+- Swift, SwiftUI, Firebase, Restful API, Git
 C, C++, C++ MFC GUI, C#, Python, HeidiSQL, OpenCV, Linux
 
--C,C++ 개발자로 약 1년간 근무
+- C,C++ 개발자로 약 1년간 근무
 할콘(HALCON) 영상 처리 라이브러리, AI 학습을 담당 CIM(컴퓨터 종합 생산 시스템) 업데이트, 외관 검사기 유지, 보수
 
--해외출장,현지영문미팅진행
+- 해외출장,현지영문미팅진행
 미국, 헝가리,한국 사이트 코드 작성, 테스트, 배포
 
-경력 에스엔유프리시젼(주)
+경력 에스엔유프리시젼(주) (2021.12 - 2022.10)
 SW 2팀 / 검사기술파트 P/C설계제어
 
-2021.12 - 2022.10
- - 헝가리 SK on 사이트 해외출장 2차전지 외관검사기 소프트웨어 담당 근무 2022.06 - 2022.09
+2022.06 ~ 2022.09
+- 헝가리 SK on 사이트 해외출장 2차전지 외관검사기 소프트웨어 담당 근무
 헝가리 SKBM, SKBH 2차전지 외관검사기 소프트웨어 담당, 외관검사기 세팅, 광학계 조절, 외 관검사기모니터링및가동
 SKBM 사이트 품질 이슈로 인한 라인 정지로 외관검사기 긴급 가동 요청, 소프트웨어 담당으로 1인출장,6개라인외관검사기검수,가동진행
 SKBM 사이트 CIM(컴퓨터 종합 생산 시스템) 사양 업데이트 SECS통신사양서추가사항구현,DB항목업데이트,검수단독진행
@@ -49,6 +49,7 @@ SFA사의 HMI(Human Machine Interface)프로그램 수정, 업데이트
 SKBH 사이트 CIM(컴퓨터 종합 생산 시스템) 사양 업데이트, 검수 진행
 1차 벤더(폭스바겐) 품질 담당자와 외관 검사기 영문 미팅 진행
 
+2022.02 ~ 2022.05
 - 미국 조지아 주 SK on 사이트 해외출장 2차전지 외관검사기 소프트웨어 담당 근무 2022.02 - 2022.05
 SKBA 사이트 2차전지 외관검사기 소프트웨어 담당, 외관검사기 세팅, 광학계 조절, 외관 검사 기모니터링및가동
 SKBA 사이트 라인 증설 2차전지 외관 검사기 추가 설치, 잡체인지(검사 사양 변경) 대응 업무 진행
@@ -56,14 +57,15 @@ SFA사의 NVIS(Neo Vision Inspection Software)프로그램 수정, 업데이트,
 SFA사의 HMI(Human Machine Interface)프로그램 수정, 업데이트
 
 학력
-충남대학교 2015.02 - 2021.02
+- 충남대학교 2015.02 - 2021.02
 자유전공학부(인문ᆞ사회과학) 학사졸
 
 스킬
-Linux, C#, Python, Swift, OpenCV, SQL, Github, GUI, MFC, iOS, Git, Restful API, C / C++, Firebase
+- Linux, C#, Python, Swift, OpenCV, SQL, Github, GUI, MFC, iOS, Git, Restful API, C / C++, Firebase
 
-프로그래머스 - 충남대학교 SW ACADEMY (IOS)
-- 프론트엔드 (IOS) 교육 수료
+프로그래머스
+- 충남대학교 SW ACADEMY (iOS)
+- 프론트엔드 (iOS) 교육 수료
 
 한국폴리텍대학 분당융합기술교육원
 하이테크과정 임베디드 시스템 학과 수료

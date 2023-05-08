@@ -36,25 +36,44 @@
 - AD MOB, QuickPose, Firebase, 로컬 알람, 애플 로그인을 사용
 - 카메라를 통해 운동을 추적, 바른자세일때만 운동 횟수를 카운팅해준다.
 - 계정에 따라 운동기록이 저장되고 매일 운동알람이 울리는 시각을 설정할 수 있다 
-- 
+
+### 트러블 슈팅
+릴리즈된지 2주가 된 새로운 프레임워크를 찾아서 사용하였고 이 프레임워크외에는 서드파티 프레임워크가 없다고 봐도 무방했다. 그래서 디버깅시에는 발견되지 않은 문제가 생겼다  
+archive시에 패키지에 오류가 나서 앱을 빌드할 수 없었다. 그래서 배포자와 직접 이메일로 연락하며 패키지에 치명적인 문제가 있음을 알리고 수정된 소식을 답장 받았다  
+그리고 이 앱의 배포소식 다같이 공유했다
 
 ## SQUATS 100
 - <img width="805" alt="image" src="https://user-images.githubusercontent.com/92566655/236816266-06ed8983-95d7-4132-852b-8e9ce8ae44df.png">
 - "SQUATS 100" 내장 Vision 프레임워크 DetectHumanBodyPose를 사용한 피트니스 앱
 - 외부 라이브러리만 쓰지 않고 내장 라이브러리를 사용하여 구현함을 목표로 제작한 앱으로
 - AD MOB, Firebase Auth, stroage, 애플로그인, 로컬 알람을 사용해 제작하였다
+ 
+### 트러블 슈팅
+내장 프레임워크를 사용하는데 SWiftUI에서는 카메라를 사용하는것에 제약이 있어 델리게이트를 사용, UIkit를 써야했다  
+또 공식문서에도 내장 바디 프레임 추적 사용 예시가 UIkit 기반이라 사용에 어려움이 있었고  
+코드를 가져다 사용하는 형식으로 카메라 뷰를 구현하였고 바디 프레임을 인식하는 것은 성공했지만  
+화면에 프레임을 그리는 것도 알아서 구현해야했다 그래서 에니메이션과 Path를 사용해서 바디 프레임에 따라 스틱을 그리고 움직이게하였고  
+관절의 위치 세곳을 추적해 각도를 계산, 팔꿈치나 무릎의 각도에 따라 운동 자세를 추적, 카운팅하였다
 
 ## ORDERMATE
 - Restful API, Firebase 사용, 팀프로젝트 배달음식 공동구매 앱 개발중 싱글톤 패턴, MVVM으로 프로젝트 진행,
+- 피그마로 초안을 제작하고 각자뷰를 제작하고 사양서를 만들고
+- 사양서를 기반으로 앱을 구현, 조율
 - 백엔드와 Restful API로 연결하였고 실시간 채팅은 Firebase를 사용해서 커뮤니티 게시판을 구현,
 - 원하는 식당의 음식을 같이 주문할 사람들을 모집, 배달비를 아낄 수 있는 앱을 목표함
 - 총 5인이서 팀을 맺어 제작중인 앱으로 협업함
 현재 앱 심사중
 https://github.com/cyberman0306/orderMate
 
+### 트러블 슈팅
+명세서를 따랐지만
+
 # 기술 스택
-- Swift, SwiftUI, Firebase, Restful API, Git
-C, C++, C++ MFC GUI, C#, Python, HeidiSQL, OpenCV, Linux
+
+### Swift 분야
+- SwiftUI, Firebase, Restful API, Git, pigma, jira
+### C 분야
+- C, C++, C++ MFC GUI, C#, Python, HeidiSQL, OpenCV, Linux, HALCON
 
 # 경력
 - 2021.12 ~ 2022.10 SNU프리시젼 C++ 영상처리 담당 근무

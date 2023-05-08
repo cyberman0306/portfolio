@@ -31,11 +31,12 @@
 - 도움말 모달에서 기능 안내
 
 ## 5 SETS
-<img width="802" alt="image" src="https://user-images.githubusercontent.com/92566655/236818299-6cc80f71-bb66-48f7-88ad-fbc0fbd533ad.png">
-- "5 SETS" 외부 Vision 프레임워크 QuickPose, Firebase를 사용한 맞춤형 피트니스 앱
+- <img width="802" alt="image" src="https://user-images.githubusercontent.com/92566655/236818299-6cc80f71-bb66-48f7-88ad-fbc0fbd533ad.png">
+- 외부 Vision 프레임워크 QuickPose, Firebase를 사용한 맞춤형 피트니스 앱
 - AD MOB, QuickPose, Firebase, 로컬 알람, 애플 로그인을 사용
 - 카메라를 통해 운동을 추적, 바른자세일때만 운동 횟수를 카운팅해준다.
 - 계정에 따라 운동기록이 저장되고 매일 운동알람이 울리는 시각을 설정할 수 있다 
+- 
 
 ## SQUATS 100
 - <img width="805" alt="image" src="https://user-images.githubusercontent.com/92566655/236816266-06ed8983-95d7-4132-852b-8e9ce8ae44df.png">

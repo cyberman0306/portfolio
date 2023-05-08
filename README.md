@@ -70,7 +70,7 @@ Linux, C#, Python, Swift, OpenCV, SQL, Github, GUI, MFC, iOS, Git, Restful API, 
 - STM32기반, MCU, Raspberry Pi, Linux, C++ MFC GUI
 
 
-https://apps.apple.com/kr/app/squats-100/id6447616127 SQUATS 100 App
-https://apps.apple.com/kr/app/5-sets/id6446591034 5 SETS App    
-https://apps.apple.com/kr/app/menudice/id6445906688 MenuDice App
-https://github.com/cyberman0306 깃허브
+- https://apps.apple.com/kr/app/squats-100/id6447616127 SQUATS 100 App
+- https://apps.apple.com/kr/app/5-sets/id6446591034 5 SETS App    
+- https://apps.apple.com/kr/app/menudice/id6445906688 MenuDice App
+- https://github.com/cyberman0306 깃허브
